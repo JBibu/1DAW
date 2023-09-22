@@ -1,6 +1,5 @@
 # 1DAW
 
-<h2>
 Repositorio de ejercicios de 1º de DAW 💻<br><br>
 
 >> Programación ⌨️<br>
