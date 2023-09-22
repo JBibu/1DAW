@@ -21,5 +21,6 @@ public class Ejemplo05 {
         System.out.println("El resultado de la raíz cuadrada es: " + Math.sqrt(numero));
 
         teclado.close();
+        
     }
 }
