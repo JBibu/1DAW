@@ -18,7 +18,7 @@
          String nombre1 = teclado.nextLine();		// Variable de texto. 
 
          System.out.print("Introduce la edad de la persona 1: ");
-         int edad1 = teclado.nextInt();		// Variable de texto. 
+         int edad1 = teclado.nextInt();		// Variable int.
 
          teclado.nextLine();    // nextLine() para limpiar el buffer
 
@@ -26,7 +26,7 @@
          String nombre2 = teclado.nextLine();		// Variable de texto. 
 
          System.out.print("Introduce la edad de la persona 2: ");
-         int edad2 = teclado.nextInt();		// Variable de texto. 
+         int edad2 = teclado.nextInt();		// Variable int.
 
          System.out.println(nombre1 + " tiene " + edad1);
          System.out.println(nombre2 + " tiene " + edad2);
