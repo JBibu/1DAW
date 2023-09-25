@@ -1,3 +1,9 @@
+/**
+ * ComprobarEdad.java
+ * Programa simple que comprueba y clasifica la edad introducida.
+ * ajp - 2018.09.19, modificado por Javier Muñoz Solano 25.9.2023
+ */
+
 import java.util.Scanner;
 
 public class ComprobarEdad {
