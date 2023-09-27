@@ -14,9 +14,9 @@ public class EjemploPráctico06 {
         double descuento = teclado.nextDouble();
 
         // Calcular precio final
-        if (precioBase >= 0 && descuento >= 0 && descuento <= 100) {
+        if (precioBase > 0 && descuento >= 0 && descuento <= 100) {
             double precioFinal = precioBase - (precioBase * descuento / 100);
-            System.out.println("El precio final es: " + precioFinal);
+            System.out.println("El precio final es: " + precioFinal + " EUR");
         } else {
             System.out.println("Los datos introducidos no son correctos");
         }
