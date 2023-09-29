@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejemplo08 {
+public class Ejemplo108 {
     public static void main(String[] args){
 
         Scanner entrada = new Scanner(System.in);
@@ -25,6 +25,10 @@ public class Ejemplo08 {
                 System.out.println(numero1 + " * " + numero2 + " = " + (numero1 * numero2));
                 break;
             case '/':
+                if (numero2 == 0){
+                    System.out.println("No se puede dividir entre 0.");
+                    break;
+                }
                 System.out.println(numero1 + " / " + numero2 + " = " + (numero1 / numero2));
                 break;
             default:

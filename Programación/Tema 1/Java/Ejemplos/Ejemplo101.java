@@ -1,4 +1,4 @@
-public class Ejemplo01 {
+public class Ejemplo101 {
   public static void main(String[] args) {
 
     // A partir de aquí se ejecuta el programa principal

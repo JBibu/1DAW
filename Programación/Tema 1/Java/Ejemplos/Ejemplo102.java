@@ -1,4 +1,4 @@
-public class Ejemplo02 {
+public class Ejemplo102 {
   public static void main(String[] args) {
 
     // Crear 3 variables numéricas, que el programa las pida por teclado
