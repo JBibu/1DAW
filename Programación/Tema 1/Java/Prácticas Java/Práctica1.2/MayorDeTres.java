@@ -27,6 +27,8 @@ public class MayorDeTres {
         int num2 = Integer.parseInt(numtext2);
         int num3 = Integer.parseInt(numtext3);
 
+
+       // Está mal
        if (num1 > num2 && num1 > num3) {
            System.out.println("El número " + num1 + " es el mayor");
         } else if (num2 > num1 && num2 > num3) {
