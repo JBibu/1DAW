@@ -7,24 +7,24 @@ public class Ejercicio7 {
         Scanner entrada = new Scanner(System.in);
 
         while (true){
-        System.out.print("Introduce un número con varios decimales: ");
-        double num = entrada.nextDouble();
-        System.out.print("Introduce a cuantos decimales se quiere redondear: ");
-        int decimales = entrada.nextInt();
+            System.out.print("Introduce un número con varios decimales: ");
+            double num = entrada.nextDouble();
+            System.out.print("Introduce a cuantos decimales se quiere redondear: ");
+            int decimales = entrada.nextInt();
 
-        double resultado = Math.rint(num * Math.pow(10, decimales)) / Math.pow(10, decimales);
+            double resultado = Math.rint(num * Math.pow(10, decimales)) / Math.pow(10, decimales);
 
-        System.out.println("El número redondeado es: " + resultado);
+            System.out.println("El número redondeado es: " + resultado);
 
-        System.out.print("Quieres continuar? (s/n): ");
-        String continuar = entrada.next();
+            System.out.print("Quieres continuar? (s/n): ");
+            String continuar = entrada.next();
 
-        if (continuar.equalsIgnoreCase("n")) {
+            if (continuar.equalsIgnoreCase("n")) {
             break;
+            }
         }
 
         entrada.close();
 
-        }
     }
 }

@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Ejercicio1 {
     public static void main(String[] args){
@@ -15,7 +16,7 @@ public class Ejercicio1 {
         entrada.close();
 
         int[] numeros = {num1, num2, num3};
-        java.util.Arrays.sort(numeros);
+        Arrays.sort(numeros);
         System.out.println("Los números ordenados son: " + numeros[0] + ", " + numeros[1] + ", " + numeros[2]);
 
     }
