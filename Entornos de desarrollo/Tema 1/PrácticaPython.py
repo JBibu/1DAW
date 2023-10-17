@@ -15,8 +15,6 @@ while True:
     for i in range(10):
         numeros2.append(int(input("Introduce número nº" + str(i+1) + ": ")))
 
-
-#Ordenar con algorimo de burbuja
     for i in range(len(numeros2)-1):
         for j in range(len(numeros2)-1):
             if numeros2[j] > numeros2[j+1]:
@@ -31,9 +29,8 @@ while True:
     else:
         break
 
-# Ventajas y desventajas de usar sort() y sorted() en Python:
-# sorted() devuelve una lista ordenada y no modifica la lista original
-# sort() modifica la lista original y no devuelve nada
-# sorted() es más flexible que sort(), puede manejar más tipos de datos, en cambio sort()
-# solo funciona con listas, aunque es más rápido que sorted()
+# Ventajas y desventajas de bubble sort:
+# Ventajas: Es sencillo de implementar y de entender, también es breve.
+# Desventajas: Es lento, ya que tiene que recorrer el array varias veces, tampoco es eficiente con arrays grandes.
+
 

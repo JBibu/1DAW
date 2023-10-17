@@ -12,5 +12,7 @@ public class Ejemplo209 {
             i++;
         }
 
+        input.close();
+
     }
 }
