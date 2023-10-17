@@ -20,7 +20,7 @@ while True:
             if numeros2[j] > numeros2[j+1]:
                 numeros2[j], numeros2[j+1] = numeros2[j+1], numeros2[j]
     
-    print("El numero mayor es: ", numeros2[-1])
+    print("De menor a mayor: ", numeros2)
 
     respuesta = input("¿Desea repetir el proceso? (S/N): ")
     if respuesta == "S" or respuesta == "s":
