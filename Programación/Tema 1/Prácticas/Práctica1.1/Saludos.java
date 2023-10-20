@@ -4,17 +4,17 @@
  * ajp - 2018.09.19
  */
 
-import java.util.Scanner; // Importa la clase Scanner del paquete java.util
+//import java.util.Scanner; // Importa la clase Scanner del paquete java.util
 
 public class Saludos { // Identificador de clase pública
 	public static void main(String[] args) { // Comienzo del programa
 		/* teclado es un canal de entrada por teclado a través de un Scanner.
 		   Necesita importar el paquete java.util
 		 */
-		Scanner teclado = new Scanner(System.in); // Crea un objeto Scanner
+		//Scanner teclado = new Scanner(System.in); // Crea un objeto Scanner
 
 		int numOrden;			// Variable numérica tipo entero.
-		String nombre = "";		// Variable de texto tipo String. 
+		//String nombre = "";		// Variable de texto tipo String. 
 
 		// Configura y muestra mensajes de bienvenida.
 		numOrden = 1 ;

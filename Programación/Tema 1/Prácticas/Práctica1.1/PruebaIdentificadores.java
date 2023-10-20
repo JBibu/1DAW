@@ -31,6 +31,34 @@ public class PruebaIdentificadores {
         // int 8ªRoca;         // Inválido: No se permite el carácter especial "ª"
         // int 3d2;            // Inválido: No es un número entero
         // int Hoja3/5;        // Inválido: No se permite el carácter especial  "/" (División)
+
+        // Inicialización de variables
+        _alpha = 3;
+        FLOAT = 3.1416f;
+        maxValor = 99999;
+        cuantos = 45;
+        Nbytes = 1024;
+        Número = 123;
+        Cañón = 1;
+        café = 2;
+        Return = 3;
+        While = 4;
+        __if = 5;
+        _CaPrIcHoSo_ = 6;
+
+        // Impresión de variables
+        System.out.println("_alpha = " + _alpha);
+        System.out.println("FLOAT = " + FLOAT);
+        System.out.println("maxValor = " + maxValor);
+        System.out.println("cuantos = " + cuantos);
+        System.out.println("Nbytes = " + Nbytes);
+        System.out.println("Número = " + Número);
+        System.out.println("Cañón = " + Cañón);
+        System.out.println("café = " + café);
+        System.out.println("Return = " + Return);
+        System.out.println("While = " + While);
+        System.out.println("__if = " + __if);
+        System.out.println("_CaPrIcHoSo_ = " + _CaPrIcHoSo_);
         
     }
 }

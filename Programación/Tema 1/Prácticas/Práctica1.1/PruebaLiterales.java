@@ -47,5 +47,31 @@ public class PruebaLiterales {
         boolean literal38 = false; // Valido
         char literal39 = '\\'; // Válido: Carácter para la barra invertida
         
+        // Impresión de variables
+        System.out.println("literal1 = " + literal1);
+        System.out.println("literal2 = " + literal2);
+        System.out.println("literal3 = " + literal3);
+        System.out.println("literal5 = " + literal5);
+        System.out.println("literal6 = " + literal6);
+        System.out.println("literal7 = " + literal7);
+        System.out.println("literal9 = " + literal9);
+        System.out.println("literal10 = " + literal10);
+        System.out.println("literal11 = " + literal11);
+        System.out.println("literal12 = " + literal12);
+        System.out.println("literal13 = " + literal13);
+        System.out.println("literal14 = " + literal14);
+        System.out.println("literal15 = " + literal15);
+        System.out.println("literal18 = " + literal18);
+        System.out.println("literal19 = " + literal19);
+        System.out.println("literal20 = " + literal20);
+        System.out.println("literal22 = " + literal22);
+        System.out.println("literal25 = " + literal25);
+        System.out.println("literal27 = " + literal27);
+        System.out.println("literal33 = " + literal33);
+        System.out.println("literal35 = " + literal35);
+        System.out.println("literal36 = " + literal36);
+        System.out.println("literal38 = " + literal38);
+        System.out.println("literal39 = " + literal39);
+
     }
 }
