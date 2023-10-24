@@ -6,7 +6,7 @@ int main() {
     int palabras = 0, i;
 
     printf("Introduce un texto: ");
-    fgets(texto, 100, stdin);   // stdin = standard input
+    fgets(texto, 100, stdin);   // stdin = standard input (como scanner en Java)
 
     for (i = 0; texto[i] != '\0'; i++) {    // '\0' = NULL (fin de cadena)
         if (texto[i] == ' ' || texto[i] == '\n' || texto[i] == '\t') { 
